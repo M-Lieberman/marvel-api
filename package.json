@@ -1,0 +1,23 @@
+{
+  "name": "marvel-api",
+  "version": "1.0.0",
+  "description": "Marvel API demo",
+  "main": "index.js",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Lieberman/marvel-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Lieberman/marvel-api/issues"
+  },
+  "homepage": "https://github.com/M-Lieberman/marvel-api#readme"
+}
