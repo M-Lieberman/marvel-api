@@ -1,11 +1,12 @@
-//  import MD5 from 'crypto-js/md5';
+// import CryptoJS from 'crypto-js/md5';
 
 const PRIVATE_KEY = "a-long-hash";
 const PUBLIC_KEY = "another-long-hash";
 
 function getCharacter() {
     const ts = new Date().getTime();
-    // var hash = CryptoJS.MD5("Message");
+    // const hash = CryptoJS.MD5("Message");
+    // console.log(hash);
     // const apiKey = MD5(ts + PRIVATE_KEY + PUBLIC_KEY).toString();
     // // const apiKey = PRIVATE_KEY + PUBLIC_KEY;
     // console.log(apiKey);
@@ -20,4 +21,4 @@ console.log(getCharacter());
 module.exports = {
     getCharacter
 };
-// export default getMarvelCharacter;
+// export default getCharacter;
