@@ -1,4 +1,4 @@
-// import CryptoJS from 'crypto-js/md5';
+// import CryptoJS from 'crypto-js';
 
 const PRIVATE_KEY = "a-long-hash";
 const PUBLIC_KEY = "another-long-hash";

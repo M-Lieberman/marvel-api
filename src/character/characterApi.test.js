@@ -1,6 +1,6 @@
 const {
     getCharacter
-  } = require("./characterApi");
+  } = require("./characterApi.js");
 // import characterApi from './characterApi';
 
   describe("test simple call to Marvel character API", () => {
