@@ -14,6 +14,7 @@ function getCharacter() {
       console.log("Success!");
       console.log("\n status = " + response.status + " : " + response.statusText);
       console.log("\n data = " + JSON.stringify(response.data));
+      // console.log("\n results = " + JSON.stringify(response.data.data.results[0].name));
       return response;
     })
     .catch((error) => console.log("ERROR! = " + error));
